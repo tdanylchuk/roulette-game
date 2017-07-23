@@ -3,7 +3,7 @@ To run the game please follow next steps:
 
 - build it first with `mvn clean verify`
 - change directory to target `cd target`
-- there 2 jars : `roulette-game.jar` and `roulette-game-jar-with-dependencies.jar`, 
+- there are 2 jars : `roulette-game.jar` and `roulette-game-jar-with-dependencies.jar`, 
 if you don't want to play with cp, just run `java -jar roulette-game-jar-with-dependencies.jar`
 - follow instructions inside game
 
