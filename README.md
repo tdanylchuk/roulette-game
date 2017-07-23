@@ -1,11 +1,14 @@
 # Roulette game
-To run the game please follow next steps:
+##### To run the game please follow next steps:
 
 - build it first with `mvn clean verify`
 - change directory to target `cd target`
-- there are 2 jars : `roulette-game.jar` and `roulette-game-jar-with-dependencies.jar`, 
-if you don't want to play with cp, just run `java -jar roulette-game-jar-with-dependencies.jar`
+- run the game
 - follow instructions inside game
+
+###### Two ways to run:
+- `java -jar roulette-game-jar-with-dependencies.jar` (Sorry for standalone, maybe for someone it would be easier)
+- `mvn exec:java  -Dexec.mainClass="com.tdanylchuk.roulette.RouletteGameApplication"`
 
 ##### There is an option to specify output file instead of using default one.
 It could be reached via setting `players.file.path` property.
